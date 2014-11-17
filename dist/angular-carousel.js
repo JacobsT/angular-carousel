@@ -1,6 +1,6 @@
 /**
  * Angular Carousel - Mobile friendly touch carousel for AngularJS
- * @version v0.3.7 - 2014-11-11
+ * @version v0.3.7 - 2014-11-17
  * @link http://revolunet.github.com/angular-carousel
  * @author Julien Bouquillon <julien@revolunet.com>
  * @license MIT License, http://www.opensource.org/licenses/MIT
@@ -14,7 +14,7 @@ http://github.com/revolunet/angular-carousel
 */
 
 angular.module('angular-carousel', [
-    'ngTouch',
+    'angular-swipe',
     'angular-carousel.shifty'
 ]);
 
